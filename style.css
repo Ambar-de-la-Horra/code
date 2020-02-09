@@ -11,13 +11,13 @@ body {
 h1, h2, h3 {
 	font-family: Playfair Display;
 	text-align: center;
-	color: #F77B00
+	color: #F77B00;
 	background-color: yellow;
 }
 
 h1 {
 	font-size: 80px;
-	color: #F7AC05
+	color: #F7AC05;
 	text-align: center;
 	background-color: yellow;
 }
