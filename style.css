@@ -8,7 +8,7 @@ body {
 }
 
 
-h1, h2, h3 {
+h1, h2, h3, li {
 	font-family: Playfair Display;
 	text-align: center;
 	color: #F77B00;
@@ -16,7 +16,7 @@ h1, h2, h3 {
 }
 
 h1 {
-	font-size: 80px;
+	font-size: 40px;
 	color: #F7AC05;
 	text-align: center;
 	background-color: yellow;
@@ -49,11 +49,12 @@ a{
 @media(min-width: 1000px) {
 	.container {
 		width: 1000px;
+		h1: 80px;s
 		}
 }
 
 .button {
-	width: 100px;
+	width: 300px;
 	background-color: #F8CC23;
 	color: #EB8100;
 	padding: 8px;
@@ -74,7 +75,7 @@ a{
     object-fit: cover;
 }
 
-.card-comtainer {
+.card-container{
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -106,3 +107,8 @@ p {
 	flex-direction: column;
 	background-color: yellow;
 }
+
+li{
+list-style-type: none;
+font-size: 19px;
+font-weight:bolder; }
