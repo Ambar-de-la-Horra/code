@@ -47,11 +47,15 @@ a{
 }
 
 @media(min-width: 1000px) {
-	.container {
-		width: 1000px;
-		h1: 80px;s
-		}
+.container {
+width: 1000px;
 }
+h1{
+font-size: 80px;
+}
+}
+
+
 
 .button {
 	width: 300px;
